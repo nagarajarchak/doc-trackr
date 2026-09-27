@@ -1,9 +1,18 @@
 {% extends "base.html" %}
 
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/main.css') }}">
+{% endblock %}
+
 {% block content %}
 
     <div class="container">
-    <h2>Hello, world!</h2>
+        <div id="header" class="min-vh-100 d-flex justify-content-center">
+            doc-trackr
+        </div>
+        <div class="min-vh-100 d-flex justify-content-center align-items-center">
+            doc-trackr
+        </div>
     </div>
 
 {% endblock %}
