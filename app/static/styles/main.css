@@ -1,4 +1,29 @@
-/* .container {
-    font-size: 2em;
+.container {
+    margin: 0;
+    padding: 0;
+    height: 10%;
+}
+
+#header {
     background-color: #147ae0;
-} */
+    height: 60px;
+}
+
+/* PATIENT TILES */
+
+.patient-container {
+    margin: 0;
+    padding: 0;
+}
+
+.patient {
+    background-color: #f0f0f0;
+    width: 85%;
+    padding: 5px 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+#patient-name {
+    font-size: 0.7em;
+}
