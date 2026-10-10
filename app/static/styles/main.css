@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     height: 10%;
+    max-width: none;
 }
 
 #header {
